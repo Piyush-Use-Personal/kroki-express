@@ -1,9 +1,11 @@
 // app.js
 const express = require('express');
 const axios = require('axios');
+const dotenv = require('dotenv');
+dotenv.config()
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
