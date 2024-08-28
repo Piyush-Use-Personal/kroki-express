@@ -15,7 +15,7 @@ This is a simple Express.js application that uses the Kroki API to generate Merm
 
 ## Installation
 
-1. Clone this repository:
+1. Clone this repository OR download zip: 
 
    ```bash
    git clone https://github.com/your-username/kroki-diagram-generator.git
